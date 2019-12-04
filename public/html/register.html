@@ -1,0 +1,29 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>
+            Welcome
+        </title>
+
+        <link rel="stylesheet" href="../css/register.css">
+    </head>
+
+    <body>
+        <form method="POST" action="/done" id="frmreg" name="frmreg">
+
+            <input type="text" name="tfName" id="tfName" placeholder="Name"><br>    
+            <input type="text" name="tfStudID" id="tfStudID" placeholder="Student ID"><br>
+            <select name="cmbSch" id="cmbSch">
+                <option value="School 1">RisingSun Montessori</option>
+                <option value="School 2">Greenhill Int'l</option>
+                <option value="School 3">HeadStart School</option>
+            </select><br>
+            <input type="radio" name="selGender" id="selmGender">Male
+            <input type="radio" name="selGender" id="selfGender">Female
+            <br>
+            <input type="submit" name="btnSave" id="btnSave">
+
+        </form>
+    </body>
+</html>
